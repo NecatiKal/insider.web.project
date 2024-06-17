@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Insider UI Test" >
+    <listeners>
+        <listener class-name="helpers.Listener"/>
+    </listeners>
+    <test name="Insider Test">
+        <classes>
+            <class name="InsiderTest"/>
+        </classes>
+    </test>
+</suite>
